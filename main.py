@@ -144,7 +144,7 @@ def create_map(year: str, set_coordinates: str):
     df = filter_films(df, year)
 
     # limit df
-    df = df.iloc[:100, :]
+    df = df.iloc[:500, :]
 
     # start = time.time()
     df = find_coordinates(df)
